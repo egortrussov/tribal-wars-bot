@@ -2,14 +2,7 @@ from config import *
 import time
 
 from attack.send_attack import send_attack
-from attack.start_scavenging import start_auto_scavenging, start_scavenging
-from village_info.village_info import *
-
-# send_attack(cookie_str, 24094, 360, 459) 
-
-# start_scavenging(VILLAGE_ID, 4)
-
-# start_auto_scavenging(VILLAGE_ID)
+from attack.start_scavenging import start_auto_scavenging
 
 print('Привет! Перед использованием программы не забудьте проверить, была ли изменена строка cookie_str в файле config.py!') 
 
